@@ -78,7 +78,7 @@ overflow: hidden;
 	padding: 16px;
 	width: 80%;
 	display: flex;
-	margin-left: 10%;
+	border-radius: 20px;
 }
 .team-image{
 background: #fff;
