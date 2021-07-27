@@ -32,15 +32,29 @@ var closeMenu = document.getElementById('closemenu');
 var dropMenu = document.getElementById('drop-menu');
 
 
+window.addEventListener('resize', function(event){
+    var newWidth = window.innerWidth;
+     if (newWidth >= 800) {
+    dropMenu.style.display = "block"; 
+  }else{
+    navigation(); 
+  }
+});
+
 function navigation() {
   // body...
 let menuStatus = localStorage.getItem('menu');
+ var w = window.innerWidth;
 if (menuStatus == undefined) {
  localStorage.setItem('menu' , 0 );
  //alert('menu is down')
  openMenu.style.display = "none";
   closeMenu.style.display = "block";
-  dropMenu.style.display = "none"; 
+  //dropMenu.style.display = "block"; 
+ 
+  if (w >= 800) {
+    dropMenu.style.display = "block"; 
+  }
 }else{
   if (menuStatus == 1) {
       //alert('menu is up');
@@ -54,6 +68,9 @@ if (menuStatus == undefined) {
   closeMenu.style.display = "none";
  dropMenu.style.display = "none";
 
+if (w >= 800) {
+    dropMenu.style.display = "block"; 
+  }
   }
 }
 }

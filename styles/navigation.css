@@ -201,7 +201,14 @@ background: #581845;
 	display: none;
 }
 
+#drop-menu{
+	display: block;
+}
+
 @media(max-width: 800px){
+	.overlay-content p{
+  font-size:18px;
+}
 .logo{
  width: 100%;
 }	
