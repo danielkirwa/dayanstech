@@ -1,0 +1,137 @@
+.assosiates{
+display: flex;
+overflow: hidden;
+overflow-x: scroll;
+background: #f2f2f2;
+align-items: center;
+text-align: center;
+align-content: center;
+justify-content: center;
+padding: 8px;
+
+}
+.assosiates-details{
+	background: #f2f2f2;
+	padding: 15px;
+	width: auto;
+	min-width: 150px;
+	margin-left: 5px;
+	border: 2px solid #f2f2f2;
+	transition: .5s ease all;
+	border-radius: 20px;
+
+
+}
+.assosiates-details:hover{
+ border: 2px solid dodgerblue;
+ cursor: pointer;
+}
+
+.simple-description{
+	display: flex;
+	padding: 16px;
+}
+.left-description{
+	justify-content: center;
+	text-align: center;
+	width: 40%;
+	margin-left: 10%;
+	border-radius: 15px;
+	border-bottom: 2px solid  #581845;
+	font-size: 24px;
+	font-family: Papyrus;
+	font-weight: bold;
+}
+.right-description{
+	justify-content: center;
+	text-align: center;
+	width: 40%;
+	margin-left: 10%;
+	border-radius: 15px;
+	border-bottom: 2px solid  #581845;
+	font-size: 24px;
+	font-family: Papyrus;
+	font-weight: bold;
+}
+.our-products{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product{
+flex: 1 1 300px; /*  Stretching: */
+  flex: 0 1 300px; /*  No stretching: */
+  border-right:  2px solid  dodgerblue;
+  border-left:  2px solid  dodgerblue;
+  padding: 10px;
+ margin: 1.5%;
+ border-radius: 20px;
+overflow: hidden;
+}
+.dev-team{
+	background: #f2f2f2;
+	padding: 16px;
+
+}
+.team-card{
+	background: #fff;
+	padding: 16px;
+	width: 80%;
+	display: flex;
+	margin-left: 10%;
+}
+.team-image{
+background: #fff;
+width: 50%;
+}
+.team-infor{
+background: #fff;
+width: 50%;
+font-size: 24px;
+}
+@media(max-width: 800px){
+.simple-description{
+	display: block;
+	padding: 16px;
+}
+.left-description{
+	justify-content: center;
+	text-align: center;
+	width: 80%;
+	margin-left: 10%;
+	border-radius: 15px;
+	border-bottom: 2px solid  #581845;
+	font-size: 18px;
+	font-family: Papyrus;
+	font-weight: bold;
+}
+.right-description{
+	justify-content: center;
+	text-align: center;
+	width: 80%;
+	margin-left: 10%;
+	border-radius: 15px;
+	border-bottom: 2px solid  #581845;
+	font-size: 18px;
+	font-family: Papyrus;
+	font-weight: bold;
+	margin-top: 24px;
+}
+.team-card{
+	background: #fff;
+	padding: 16px;
+	width: 95%;
+	display: block;
+	margin-left: 0%;
+}
+.team-image{
+background: #fff;
+width: 90%;
+}
+.team-infor{
+background: #fff;
+width: 90%;
+font-size: 24px;
+}
+	
+}

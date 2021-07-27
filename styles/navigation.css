@@ -1,0 +1,245 @@
+
+#navbar {
+ 	background:  #fff;
+ 	border-bottom: 3px solid #581845;
+ 	padding: 15px;
+}
+
+#navbar a {
+	margin-top: 10px;
+    padding: 10px 12px ;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	text-decoration: none;
+	background: #fff;	
+	transition: .5s ease all;
+}
+.menu-control{
+	display: none;
+}
+#openmenu{
+cursor: pointer;
+
+
+}
+#closemenu{
+	cursor: pointer;
+
+}
+.fa-times{
+	display: none;
+}
+
+.left-footer a ,.right-footer a{
+	margin-top: 10px;
+    padding: 10px 12px ;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	text-decoration: none;
+	background: #fff;	
+	transition: .5s ease all;
+	font-size: 18px;
+}
+.copyrightlink{
+	margin-top: 10px;
+    padding: 10px 12px ;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	text-decoration: none;	
+	transition: .5s ease all;
+	font-size: 24px;
+	color: #fff;
+}
+
+#navbar a:hover {
+  background-color: #581845;
+  color: #fff;
+}
+
+#navbar a.active {
+   background-color: #581845;
+  color: #fff;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 100px;
+  width: 100%;
+}
+.sticky2 {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.logo-holder{
+	background: #ee6d71;
+}
+.background-image{
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 90vh;
+	background-position: 100% 50;
+	overflow: hidden;
+}
+.overlay-content{
+	text-align: center;
+}
+.overlay-content p{
+  font-size:24px;
+}
+.overlay-content h1{
+  color: teal;
+  font-weight: bold;
+}
+.text-brown{
+	color: #ee6d71
+}
+.text-darkbrown{
+	color:  #581845 ;
+}
+.text-dodgerblue{
+	color:  dodgerblue ;
+}
+.text-teal{
+	color:  teal ;
+}
+.text-white{
+	color: white;
+}
+
+.text-bold{
+	font-weight: bold;
+}
+.header{
+	font-weight: bold;
+	font-size: 20px;
+}
+.center{
+	align-items: center;
+text-align: center;
+align-content: center;
+justify-content: center;
+margin-top: auto;
+margin-bottom: auto;
+}
+
+.contact-button{
+ width: 60%;
+ padding: 10px 12px;
+ font-size: 24px;
+ border-radius: 10px;
+ background: #00000000;
+ border: 3px solid #581845;
+
+}
+.contact-button:hover{
+cursor: pointer;
+background:  #581845;
+color: #fff;
+}
+
+.footer{
+	display: flex;
+}
+.left-footer{
+	width: 50%;
+	display: block;
+}
+
+.right-footer{
+	width: 50%;
+display: block;
+}
+.copyright{
+background: #581845;
+}
+.copyrightyear{
+	font-size: 24px;
+	color: #fff;
+}
+.hand-hover{
+	cursor: pointer;
+
+}
+.hand-hover:hover{
+	color: dodgerblue;
+}
+
+.iconz {
+  
+  color: #dcdcdc;
+  text-align: center;
+  padding: 2px;
+  background: #581845;
+  animation: rotateout 0.5s linear;
+}
+.iconz:hover{
+	animation: rotatein 0.5s linear;
+	color: dodgerblue;
+}
+
+@keyframes rotatein {
+	from { transform: rotate(0deg);}
+  to { transform: rotate(360deg);}
+}
+@keyframes rotateout {
+	from { transform: rotate(360deg);}
+  to { transform: rotate(0deg);}
+}
+.mybr{
+	display: none;
+}
+
+@media(max-width: 800px){
+.logo{
+ width: 100%;
+}	
+.footer{
+	display: block;
+}
+.left-footer{
+	width: 100%;
+	display: block;
+}
+
+.right-footer{
+	width: 100%;
+display: block;
+}
+.dropdown{
+	display: block;
+}
+.closeup{
+	display: none;
+}
+#drop-menu{
+	display: none;
+}
+.menu-control{
+	display: block;
+}
+.mybr{
+	display: block;
+}
+#navbar a {
+	margin-top: 10px;
+    padding: 10px 100px ;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+	text-decoration: none;
+	background: #fff;	
+	transition: .5s ease all;
+}
+}
+
