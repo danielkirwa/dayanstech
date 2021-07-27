@@ -71,12 +71,13 @@ overflow: hidden;
 .dev-team{
 	background: #f2f2f2;
 	padding: 16px;
-
+	margin: auto;
 }
 .team-card{
 	background: #fff;
 	padding: 16px;
 	width: 80%;
+	margin: 8px;
 	display: flex;
 	border-radius: 20px;
 }
@@ -89,6 +90,38 @@ background: #fff;
 width: 50%;
 font-size: 24px;
 }
+/* enroll popup */
+.mail-box{
+	min-width: 375px;
+  font-size: 24px;
+   width: 60%;
+  background: #00000000;
+  text-align: center; 
+  position: absolute; 
+  top: 20%;
+    left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto;  
+  overflow: hidden;
+  display: none;
+  padding: 16px;
+  border: 2px solid #581845;
+  position: fixed;
+  
+}
+
+.inputstyle{
+  min-width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #581845;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
 @media(max-width: 800px){
 .simple-description{
 	display: block;
@@ -120,9 +153,9 @@ font-size: 24px;
 .team-card{
 	background: #fff;
 	padding: 16px;
-	width: 95%;
+	width: 90%;
 	display: block;
-	margin-left: 0%;
+	
 }
 .team-image{
 background: #fff;
@@ -131,7 +164,7 @@ width: 90%;
 .team-infor{
 background: #fff;
 width: 90%;
-font-size: 24px;
+font-size: 18px;
 }
 	
 }
