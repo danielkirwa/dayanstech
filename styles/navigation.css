@@ -81,7 +81,7 @@ cursor: pointer;
 }
 
 .logo-holder{
-	background: #ee6d71;
+	background: #dc5253;
 }
 .background-image{
 	-webkit-background-size: cover;
@@ -103,7 +103,7 @@ cursor: pointer;
   font-weight: bold;
 }
 .text-brown{
-	color: #ee6d71
+	color: #ee6d71;
 }
 .text-darkbrown{
 	color:  #581845 ;
@@ -121,6 +121,7 @@ cursor: pointer;
 .text-bold{
 	font-weight: bold;
 }
+
 .header{
 	font-weight: bold;
 	font-size: 20px;

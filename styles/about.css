@@ -1,0 +1,34 @@
+.aboutcontent{
+	background: #fdfff5;
+}
+
+.whoweare{
+	width: 80%;
+	padding: 16px;
+	border: 20px;
+	background: #fefefa;
+	margin-top: 16px;
+	margin-left: 10%;
+}
+.largefont{
+	font-size: 24px;
+}
+.animatecolor{
+	color: #ee6d71;
+	animation-name: changecolor;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+@keyframes changecolor{
+	from{color: #ee6d71;}
+	to{color: teal;}
+}
+.animatesize{
+		animation-name: changesize;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+@keyframes changesize{
+	from{font-size: 24px;;}
+	to{font-size: 18px;}
+}
