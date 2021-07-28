@@ -32,3 +32,36 @@
 	from{font-size: 24px;;}
 	to{font-size: 18px;}
 }
+
+
+.productScore{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.scoresheader{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background: #fff;
+	color: #581845;
+	display: flex;
+	align-items: center;
+    text-align: center;
+    align-content: center;
+     justify-content: center;
+   
+}
+.scores{
+background: #581845;
+flex: 1 1 250px; /*  Stretching: */
+  flex: 0 1 250px; /*  No stretching: */
+  border-right:  2px solid  dodgerblue;
+  border-left:  2px solid  dodgerblue;
+  padding: 10px;
+ margin: 1.5%;
+ border-radius: 20px;
+overflow: hidden;
+color: #fff;
+}
