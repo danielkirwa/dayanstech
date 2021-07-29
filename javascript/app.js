@@ -79,6 +79,14 @@ if (w >= 800) {
 }
 navigation();
 
+function foldbacknav() {
+  // body...
+  localStorage.setItem('menu', 0);
+  dropMenu.style.display = "none";
+   openMenu.style.display = "block";
+  closeMenu.style.display = "none";
+}
+
 openMenu.addEventListener('click' , () =>{
   localStorage.setItem('menu', 1);
    openMenu.style.display = "none";
