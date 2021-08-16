@@ -4,12 +4,13 @@
 
 .product-item{
 	width: 80%;
-	background: #f1f1f1;
+	background: #fff;
 	margin-left: 10%;
 	margin-top: 20px;
+	box-shadow: 0 0 10px  grey;
 }
 .product-head{
-	background: #f1f1f1;
+	background: #fff;
 	width: 100%;
 }
 .product-description{
@@ -47,7 +48,7 @@
 }
 .contact-button:hover{
 cursor: pointer;
-background:  #ee6d71;
+background:  #581845;
 color: #fff;
 }
 
