@@ -16,6 +16,7 @@
 .product-description{
 	width: 100%;
 	display: flex;
+	padding: 2px;
 }
 .product-image{
 	width: 50%;
@@ -52,12 +53,47 @@ background:  #581845;
 color: #fff;
 }
 
+.web-product{
+	background: #fff;
+	width: 80%;
+	margin-left: 10%;
+	box-shadow: 0 0 10px  grey;
+}
+.android-product{
+	background: #fff;
+	width: 80%;
+	margin-left: 10%;
+	box-shadow: 0 0 10px  grey;
+}
+.show-hide{
+	display: flex;
+}
+.title-div{
+width: 90%;
+}
+.icon-div{
+width: 10%;
+}
+.web-product-card{
+	display: none;
+}
+.android-product-card{
+	display: none;
+}
 
 
 @media(max-width: 800px){
+	.web-product{
+	background: #fff;
+	width: 90%;
+	margin-left: 5%;
+	box-shadow: 0 0 10px  grey;
+
+}
 	.product-description{
-	width: 100%;
+	width: 98%;
 	display: block;
+	padding: 2px;
 }
 .product-item{
 	width: 100%;
