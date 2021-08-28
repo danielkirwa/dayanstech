@@ -39,6 +39,10 @@ display: flex;
   font-family: 'Courier New', monospace;
   font-size: 20px;
 }
+.launch-video{
+  max-height: 200px;
+  overflow: hidden;
+}
 
 
 
