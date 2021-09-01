@@ -117,6 +117,12 @@ cursor: pointer;
 .text-white{
 	color: white;
 }
+.text-grey{
+	color: #a9a9a9;
+}
+.text-darkgrey{
+	color: #808080;
+}
 
 .text-bold{
 	font-weight: bold;
