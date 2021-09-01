@@ -1,5 +1,5 @@
 // animate typing effect
-const texts = ['Need your business online  ','Need technology solutions  '];
+const texts = ['Technology you need is here    '];
 let count = 0;
 let index = 0;
 let currentText = '';
