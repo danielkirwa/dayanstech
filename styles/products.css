@@ -2,100 +2,43 @@
 	margin-top: 20px;
 }
 
-.product-item{
-	width: 80%;
-	background: #fff;
-	margin-left: 10%;
-	margin-top: 20px;
-	box-shadow: 0 0 10px  grey;
-}
-.product-head{
-	background: #fff;
+
+.product-caption{
+	background: #f1f1f1;
 	width: 100%;
+	font-size: 24px;
 }
-.product-description{
-	width: 100%;
-	display: flex;
+.product-holder{
 	padding: 2px;
+	 width: 80%;
+  box-shadow: 0 0 10rem 0 rgba(0 ,0,1,0.2);
+  margin-left: 10%;
+  margin-top: 16px;
+}
+.product-item{
+	display: flex;
 }
 .product-image{
 	width: 50%;
 
 }
-.product-infor{
+.product-description{
 	width: 50%;
 	padding: 16px;
 	font-size: 24px;
 }
-.header{
-	font-size: 24px;
 
-}
-.brownbackground{
-	background: #78184a;
-}
-.pinkbackground{
-	background: #ff77ff ;
-}
-
-.getproduct-button{
- width: 60%;
- padding: 10px 12px;
- font-size: 24px;
- border-radius: 10px;
- background: #00000000;
- border: 3px solid #ee6d71;
-
-}
-.contact-button:hover{
-cursor: pointer;
-background:  #581845;
-color: #fff;
-}
-
-.web-product{
-	background: #fff;
-	width: 80%;
-	margin-left: 10%;
-	box-shadow: 0 0 10px  grey;
-}
-.android-product{
-	background: #fff;
-	width: 80%;
-	margin-left: 10%;
-	box-shadow: 0 0 10px  grey;
-}
-.show-hide{
-	display: flex;
-}
-.title-div{
-width: 90%;
-}
-.icon-div{
-width: 10%;
-}
-.web-product-card{
-	display: none;
-}
-.android-product-card{
-	display: none;
-}
 
 
 @media(max-width: 800px){
-	.web-product{
-	background: #fff;
-	width: 90%;
-	margin-left: 5%;
-	box-shadow: 0 0 10px  grey;
 
-}
 	.product-description{
 	width: 98%;
 	display: block;
 	padding: 2px;
 }
 .product-item{
+	display: block;
 	width: 100%;
 	margin-left: 0%;
 	margin-top: 20px;
@@ -104,10 +47,6 @@ width: 10%;
 	width: 100%;
 
 }
-.product-infor{
-	width: 100%;
-	padding: 16px;
-	font-size: 24px;
-}
+
 
 }

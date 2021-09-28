@@ -1,6 +1,9 @@
 let mailBox = document.querySelector('.mail-box');
 let btnclosemailBox = document.getElementById('closemailbox');
 let contactButton = document.querySelector('.contact-button');
+var blurbody = document.querySelector('.summary-holder');
+var blurbody2 = document.querySelector('.scroll-table');
+var blurbody3 = document.querySelector('.footer');
 
 
 contactButton.addEventListener('click' , () =>{
