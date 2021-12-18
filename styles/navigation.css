@@ -1,8 +1,9 @@
 
 #navbar {
  	background:  #fff;
- 	border-bottom: 3px solid #581845;
+ 	border-bottom: 3px solid dodgerblue;
  	padding: 15px;
+ 	z-index: 1;
 }
 
 #navbar a {
@@ -52,12 +53,12 @@ cursor: pointer;
 }
 
 #navbar a:hover {
-  background-color: #581845;
+  background-color: dodgerblue;
   color: #fff;
 }
 
 #navbar a.active {
-   background-color: #581845;
+   background-color: dodgerblue;
   color: #fff;
 }
 
@@ -81,7 +82,8 @@ cursor: pointer;
 }
 
 .logo-holder{
-	background: #dc5253;
+	background: #fff;
+	z-index: 1;
 }
 .background-image{
 	-webkit-background-size: cover;
@@ -147,12 +149,13 @@ margin-bottom: auto;
  font-size: 24px;
  border-radius: 10px;
  background: #00000000;
- border: 3px solid #581845;
+ border: 3px solid dodgerblue;
+ color: #fff;
 
 }
 .contact-button:hover{
 cursor: pointer;
-background:  #581845;
+background:  dodgerblue;
 color: #fff;
 }
 
