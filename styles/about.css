@@ -45,7 +45,7 @@
 	height: 200px;
 	border-radius: 50%;
 	background: #fff;
-	color: #581845;
+	color: dodgerblue;
 	display: flex;
 	align-items: center;
     text-align: center;
@@ -54,7 +54,7 @@
    
 }
 .scores{
-background: #581845;
+background: dodgerblue;
 flex: 1 1 250px; /*  Stretching: */
   flex: 0 1 250px; /*  No stretching: */
   border-right:  2px solid  dodgerblue;
